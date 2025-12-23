@@ -1,4 +1,3 @@
--- aoeu aoeu aoeuaeo 
 -- Auto-generated AreaID grid for Kalimdor
 -- Each tile is 16x16 chunks (256 u32 AreaIDs), base64 encoded.
 

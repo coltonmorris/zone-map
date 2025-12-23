@@ -1,4 +1,3 @@
--- colton was here
 -- Auto-generated AreaID grid for Azeroth
 -- Each tile is 16x16 chunks (256 u32 AreaIDs), base64 encoded.
 
