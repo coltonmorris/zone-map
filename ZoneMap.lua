@@ -710,10 +710,11 @@ end
 local function CreateMapButton()
   if not WorldMapFrame then return end
   
-  local canvas = WorldMapFrame:GetCanvas()
-  local button = CreateFrame("Button", "ZoneMapToggleButton", canvas, "UIPanelButtonTemplate")
+  -- Parent to ScrollContainer so it stays fixed when zooming
+  local parent = WorldMapFrame.ScrollContainer or WorldMapFrame
+  local button = CreateFrame("Button", "ZoneMapToggleButton", parent, "UIPanelButtonTemplate")
   button:SetSize(80, 22)
-  button:SetPoint("BOTTOMRIGHT", canvas, "BOTTOMRIGHT", -10, 10)
+  button:SetPoint("TOPRIGHT", parent, "TOPRIGHT", -10, -50)
   button:SetText("Zones")
   button:SetFrameStrata("TOOLTIP")
   button:SetFrameLevel(500)
