@@ -614,7 +614,7 @@ local function UpdateFillOverlay(silent)
             end
             
             local r, g, b = GetAreaColor(areaID)
-            tex:SetColorTexture(r, g, b, 0.7)
+            tex:SetColorTexture(r, g, b, 0.4)
             tex:ClearAllPoints()
             tex:SetPoint("TOPLEFT", canvas, "TOPLEFT", pixelX - pixelW/2, -(pixelY - pixelH/2))
             tex:SetSize(pixelW, pixelH)
