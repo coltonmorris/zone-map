@@ -1,5 +1,5 @@
 # ZoneMap
-this repo draws the zones and subzones on your map in classic wow!
+this repo draws the zones and subzones on your map in classic wow! click the button in the top right of the map to enable. an asterisk next to the area-id means this zone gives xp.
 
 ## Contributing
 ### ADT Files
